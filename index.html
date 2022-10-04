@@ -10,9 +10,6 @@
     <meta property="og:url" content="https://kimjinhee99.github.io/prontend">
     <meta property="og:description" content="221004_프론트엔드기초_김진희">
     <meta property="og:title" content="https://kimjinhee99.github.io/prontend/images/01.jpg">
-
-    <style>
-    </style>
 </head>
 <body>
     <a href="#" target="_blank" style="color : blue;">본문으로 바로가기</a>
@@ -21,20 +18,20 @@
 
     <form>
         <h3>아이디</h3>
-        <p><label><input type="ID">@naver.com</label></p>
+        <p><label><input type="text" name="user_id">@naver.com</label></p>
 
         <h3>비밀번호</h3>
-        <p><label><input type="password"></label></p>
+        <p><label><input type="password" name="user_password"></label></p>
         
         <h3>비밀번호 재확인</h3>
-        <p><label><input type="password_check"></label>설정하려는 비밀번호가 맞는지 확인하기 위해 다시 입력해주세요.</p>
+        <p><label><input type="password" name="user_password check"></label>설정하려는 비밀번호가 맞는지 확인하기 위해 다시 입력해주세요.</p>
 
         <h3>이름</h3>
-        <p><label><input type="name"></label></p>
+        <p><label><input type="text" name="user_name"></label></p>
 
         <h3>생년월일</h3>
-        <input type="birth" placeholder="년(4자)"><br>
-        <select name="month">
+        <input type="text" name="user_birth" placeholder="년(4자)"><br>
+        <select name="text" name="user_month">
             <option>월</option>
             <option value="1월">1월</option>
             <option value="2월">2월</option>
@@ -49,7 +46,7 @@
             <option value="11월">11월</option>
             <option value="12월">12월</option>
         </select><br>
-        <input type=" date" placeholder="일">
+        <input type="text" name="user_date" placeholder="일">
 
         <h3>성별</h3>
         <select name="sex">
@@ -68,14 +65,14 @@
             <option value="011">011</option>
             <option value="017">017</option>
         </select><br>
-        <label><input type="middle_phone_number" placeholder="전화번호 입력"><a href="#" style="color : blue;">인증번호 받기</a></label><br>
-        <label><input type="code" placeholder="인증번호 입력하세요">인증받은 후 인증번호를 입력해야 합니다.</label><br>
+        <label><input type="tel" name="middle_phone_number" placeholder="전화번호 입력"><a href="#" style="color : blue;">인증번호 받기</a></label><br>
+        <label><input type="text" name="code" placeholder="인증번호 입력하세요">인증받은 후 인증번호를 입력해야 합니다.</label><br>
         <button type="submit">가입하기</button>
     </form>
 
         <ul>
             <li><a href="#" target="_blank" style="color : blue;">이용약관</a></li>
-            <li><a href="#" target="_blansk" style="color : blue;"><strong>개인정보처리방침</strong></a></li>
+            <li><a href="#" target="_blank" style="color : blue;"><strong>개인정보처리방침</strong></a></li>
             <li><a href="#" target="_blank" style="color : blue;">책임의 한계와 법적고지</a></li>
             <li><a href="#" target="_blank" style="color : blue;">회원정보 고객센터</a></li>
         </ul>
